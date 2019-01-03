@@ -6,6 +6,12 @@ body {
     flex-direction: column;
 }
 
+.laptop-boy{
+    height:1em;
+    width:1em;
+    padding-top:10px;
+}
+
 .banner{
     max-width:30%;
     max-height:30%;
@@ -16,12 +22,6 @@ header {
     align-self: center;
     width: 100%;
 }
-
-#icon{
-    width:3em;
-    height: 3em;
-}
-
 h1 a{
     text-decoration: none;
     color:black;
@@ -51,33 +51,44 @@ h1 a{
     align-content: center;
     justify-content: center;
 }
+
 .banner{
-    max-width: 50%;
-    max-height: 40%;
-    margin:0px auto;
-    width:200px;
-    height: 200px;
-    align-content: center;
+    max-width: 100vw;
+    margin: 0px auto;
+    text-align: center;
+}
+#banner-img{
+    width:600px;
+    height: auto;
+
 }
 
 .box{
     border:1px solid;
-    margin:0px auto;
-    padding:10px;
+    margin:0px 10px;
+    padding:10px 10px;
     width:85%;
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-radius:1em;
 }
 
 .donate{
     align-self: center;
+    margin:0px auto;
+    width:100
+}
+
+.donation-box{
+    margin:0px auto;
 }
 
 .section{
     display:flex;
     flex-direction: row;
+    padding:10px
 }
 
 .tag-to-header {
