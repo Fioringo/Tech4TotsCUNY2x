@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-
-<title>TechWithTods</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech For Tods</title>
+    <link rel="stylesheet" href="css/index_style.css">
 </head>
 
 <body>
-	
-	<form action="{{ url_for('pay') }}" method="POST">
-		<input type="submit" value="Donate">
-	</form>
-	<form action="{{ url_for('about') }}" method="POST">
-		<input type="submit" value="Learn">
-	</form>
+	<header>
+	    <div class="logo"> 👼 </div>
+	    <h1> Tech For Tods </h1>
 
+	    <p> Empowering underprivileged children through technology </p>
+	</header>
+	<main>
+	    <p class="tag-to-links"> Learn More About Our Cause OR Donate </p>
+		<div class="flex-layer-superlinks">
+		    <div class="about superlink">
+			<form action="{{ url_for('about') }}" method="POST">
+			    <input type="submit" value="Learn">
+			</form>
+		    </div>
+		    <div class="donate superlink">
+			<form action="{{ url_for('pay') }}" method="POST">
+			    <input type="submit" value="Donate">
+			</form>
+		</div>
+	    </div>
+	</main>
 </body>
 </html>
