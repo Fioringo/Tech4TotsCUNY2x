@@ -28,3 +28,26 @@ header {
 .emphasize-word {
     color: red;
 }
+
+.flex-layer-superlinks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.superlink {
+    margin: 0 auto;
+    width: 80%;
+    height: 10em;
+    background-color: lightgrey;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+input {
+    border: 0px;
+    background-color: lightgrey;
+    width: 100%;
+}
+
