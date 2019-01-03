@@ -9,25 +9,57 @@
 
 <body>
 	<header>
-	    <h1 class='logo'>  👼  Tech For Tods  </h1>
+		<img id="icon" src="../images/student.svg" alt="">
+	    <h1 class='logo'> Tech For Tots  </h1>
 
 	    <p class="tag-to-header"> Empowering underprivileged children through technology</p>
+		
 	</header>
 	<main>
-	<p class="tag-to-links"> <span class="emphasize-word"> Learn More </span> About Our
-	Cause Or <span class="emphasize-word"> Donate </span> </p>
-		<div class="flex-layer-superlinks">
-		    <div class="about superlink">
-			<form action="{{ url_for('about') }}" method="POST">
-			    <input type="submit" value="Learn">
-			</form>
-		    </div>
-		    <div class="donate superlink">
-			<form action="{{ url_for('pay') }}" method="POST">
-			    <input type="submit" value="Donate">
-			</form>
+	<nav>
+
+	</nav>
+		<div class="banner">
+			<img id="banner-img" src="../images/banner.jpg" alt="">
 		</div>
-	    </div>
+		<div class="container">
+			<div class="section">
+				<div class="box">
+					<img class="pic" src="../images/target.svg" alt="">
+					<h1>Accessability</h1>
+					<p>
+							To provide impoverished youth the access to the global internet community.
+					</p>
+				</div>
+				<div class="box">
+					<img class="pic" src="../images/key.svg" alt="Key pic">
+					<h1>Opportunity</h1>
+					<p>
+							To create a movement of social mobility through the attainment of technical skills.	
+					</p>
+					</div>
+			
+				<div class="box">
+					<img class="pic" src="../images/books.svg" alt="Book pic">
+					<h1>Education</h1>
+					<p>To allow equal access to sources of learning for the youth of the world.</p>
+				</div>
+			</div>
+			<div class="section">
+				<div class="donate">
+						<div class="box">
+							<a href="pay.html"><img class="pic" src="../images/dollar.svg" alt="coin pic"></a>
+							<h1><a href="pay.html">Donate Here</a></h1>
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt voluptatum eos voluptatibus dignissimos beatae at, veritatis, deleniti animi, cumque ullam nihil! Sapiente quam repellat beatae officiis omnis alias architecto.
+							</p>
+						</div>
+				</div>
+			</div>
+		</div>
 	</main>
+	<footer>
+
+	</footer>
 </body>
 </html>
