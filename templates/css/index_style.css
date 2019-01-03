@@ -1,0 +1,21 @@
+body {
+    font-size: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+   
+}
+
+.logo {
+    font-size: 8em;
+    margin-top: -0.1em;
+    text-align: center;    
+}
+
+.tag-to-header {
+    text-align: center;
+    font-size: 4em;
+}
