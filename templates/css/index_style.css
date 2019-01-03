@@ -31,6 +31,10 @@ header {
     width: 1em;
 }
 
+h1 {
+    font-size: 1.2em;
+}
+
 h1 a{
     text-decoration: none;
     color:black;
@@ -53,19 +57,19 @@ h1 a{
     align-content: center;
 }
 
-.container{
+.container {
     display:flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
 }
 
-.banner{
+.banner {
     max-width: 100vw;
     margin: 0px auto;
     text-align: center;
 }
-#banner-img{
+#banner-img {
     width:600px;
     height: auto;
 
@@ -129,38 +133,10 @@ h1 a{
     margin-bottom: 1em;
 }
 
-/*input[type="submit"] {*/
-/*    font-size: 5em;*/
-/*    color: black;*/
-/*    opacity: 0.8;*/
-/*}*/
-/**/
-/*input[type="submit"]:hover {*/
-/*    font-size: 5em;*/
-/*    /*color: red;*/
-/*     opacity: 1;*/
-/*     cursor: pointer;*/*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*    cursor: pointer;*/
-/*}*/
-/**/
-/*input {*/
-/*    border: 0px;*/
-/*    background-color: lightgrey;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    border-radius: 1000em;*/
-/*}*/
-
 form {
     height: 100%;
-
-    /*border: 1px solid black;*/
     border-radius: 1000em;
 }
-
-
 
 ul {
     border-radius: 10px;
@@ -203,6 +179,7 @@ li a:hover {
     background-color: #37B9B8;
     border-radius: 10px;
     overflow: hidden;
+    height: 60vh;
 }
 
 .content-text-box {
@@ -223,4 +200,8 @@ li a:hover {
     width: 100%;
     
     color: #000;
+}
+
+.under-ticker {
+    height: 60vh;
 }
