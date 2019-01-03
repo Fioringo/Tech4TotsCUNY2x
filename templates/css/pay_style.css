@@ -1,11 +1,12 @@
 body {
     font-size: 10px;
-    text-align: center;
 }
 
 .flex-container {
+    text-align: center;
     display: flex;
     flex-direction: center;
+    height: 60vh;
 }
 /*
 .donate-tag {
@@ -17,16 +18,23 @@ body {
 }
 */
 .donation-form {
+    text-align: center;
     font-size: 2em;
     border-radius: 1em;
     background-color: lightgrey;
     width: 40%;
     margin: 0 auto;
+    
     padding-bottom: 1em;
+    height: 27vh;
 }
 
 input {
-   width: 40%;
+    height: 1.7em;
+   width: 50%;
+   background-color: white;
+   border-radius:10px;
+   border: 0 solid black;
 }
 
 .submit-button {
@@ -38,7 +46,7 @@ input {
     text-decoration: none;
     border-radius: 0.1em;
     /*border: 0.01em solid black;*/
-    background-color: green;
+    background-color: #42c600;
     opacity: 0.8;/*
  -webkit-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
