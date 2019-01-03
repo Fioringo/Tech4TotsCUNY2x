@@ -19,3 +19,12 @@ header {
     text-align: center;
     font-size: 4em;
 }
+
+.tag-to-links {
+    text-align: center;
+    font-size: 3em;
+}
+
+.emphasize-word {
+    color: red;
+}
