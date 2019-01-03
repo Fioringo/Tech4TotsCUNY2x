@@ -9,6 +9,11 @@ header {
    
 }
 
+.laptop-boy {
+    height: 1em;
+    width: 1em;
+}
+
 .logo {
     font-size: 8em;
     margin-top: -0.1em;

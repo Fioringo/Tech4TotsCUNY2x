@@ -1,0 +1,61 @@
+body {
+    font-size: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: center;
+}
+/*
+.donate-tag {
+    
+    height: 2em;
+    font-size: 4em;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+*/
+.donation-form {
+    font-size: 2em;
+    border-radius: 1em;
+    background-color: lightgrey;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+input {
+   width: 40%;
+}
+
+.submit-button {
+    margin: 0 auto;
+    display: block;
+    width: 1.5em;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.1em;
+    /*border: 0.01em solid black;*/
+    background-color: green;
+    opacity: 0.8;/*
+ -webkit-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75); */  
+}
+
+.submit-button:hover {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.1em;
+    /*border: 0.01em solid black;*/
+    background-color: green;
+    opacity: 1;
+    /*
+    -webkit-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 0.5px 0px rgba(0,0,0,0.75);*/   
+}
+
